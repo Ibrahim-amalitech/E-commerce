@@ -1,0 +1,48 @@
+.popup{
+    padding: 8px;
+    margin: auto;
+    background-color: darkslateblue;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .product-review{
+    display:inline;
+    align-items: center;
+  }
+  .column ul{
+    list-style-type: none;
+    display: block;
+   float:left;
+   text-align: left;
+ }
+ 
+ button{
+    background-color: blueviolet;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#theImgPopup{
+  width: 100%;
+  height: auto;
+}
+
+li{
+  list-style-type: none;
+}

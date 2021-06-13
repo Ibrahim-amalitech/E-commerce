@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART PAGE</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup"><h1>ITEM ADDED TO CART</h1></div>
+    <div class="row">
+        <div class="column">
+            <img id="theImgPopup" src="./imgs/bright_peach0.jpg" alt="">
+        </div>
+        <div class="column1">
+            
+            <div class="product-review">   
+               <ul>
+                   <li id="prod_NamePopup">product name</li>
+                   <li id="produt_colorPopup">price</li>
+                   <li id="produt_pricePopup">QTY:3</li>
+                   <li id="quanrity_pricePopup">quantity price</li>
+                   <li>
+                    <button type="submit">CHECK OUT</button> <br>
+                  
+                    <button type="submit">CONTINUE SHOPPING</button>  
+                   </li>
+               </ul>
+                 
+                    
+                        
+            </div>
+            
+        
+    </div>
+    <div>
+         
+    </div>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+     <script> $(document).on('click', load("index.html #add-to-cart"), function() {
+                  $("#theImgPopup").load("index.html .column");
+                  $("#prod_NamePopop").load("index.html #prod_Name");
+                  $("#produt_colorPopup").load("index.html #produt_color");
+                  $("##produt_pricePopup").load("index.html #produt_price");
+          
+      }); 
+      /*
+      document.getElementById("add-to-cart").addEventListener("click", myFunction);
+       function myFunction() {
+         window.location.href="/index.html";
+         document.getElementById("theImgPopup").innerHTML=document.getElementById("theImg").innerHTML
+       } */
+      
+      </script> 
+</body>
+</html>
